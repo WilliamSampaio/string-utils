@@ -1,0 +1,21 @@
+{
+    "name": "williamsampaio/string-utils",
+    "description": "String utils",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "StringUtils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "William Sampaio",
+            "email": "56176702+WilliamSampaio@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
