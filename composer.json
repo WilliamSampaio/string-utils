@@ -8,7 +8,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "StringUtils\\": "src/"
+            "StringUtils\\": "src/",
+            "StringUtils\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -17,5 +18,12 @@
             "email": "56176702+WilliamSampaio@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "scripts": {
+        "test": "phpunit",
+        "coverage": "phpunit --coverage-html=coverage",
+        "post-install-cmd": [
+            "@coverage"
+        ]
+    }
 }
