@@ -1,6 +1,6 @@
 {
     "name": "williamsampaio/string-utils",
-    "description": "String utils",
+    "description": "This library provides a number of features for manipulating strings, such as removing whitespace, accented characters, and more.",
     "type": "library",
     "keywords": [
         "string",
