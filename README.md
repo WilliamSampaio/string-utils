@@ -1,6 +1,7 @@
 # String Utils
 
 ![Codecov (with branch)](https://img.shields.io/codecov/c/github/WilliamSampaio/string-utils/master?style=flat-square&logo=codecov)
+![GitHub Release](https://img.shields.io/github/v/release/WilliamSampaio/string-utils?style=flat-square)
 ![GitHub License](https://img.shields.io/github/license/WilliamSampaio/string-utils?style=flat-square)
 
 This library provides a number of features for manipulating strings, such as removing whitespace, accented characters, and more.
