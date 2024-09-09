@@ -2,9 +2,15 @@
     "name": "williamsampaio/string-utils",
     "description": "String utils",
     "type": "library",
-    "require-dev": {
-        "phpunit/phpunit": "^11.3"
-    },
+    "keywords": [
+        "string",
+        "utils",
+        "helper",
+        "php",
+        "php8",
+        "text"
+    ],
+    "homepage": "https://github.com/WilliamSampaio/string-utils",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -18,7 +24,13 @@
             "email": "56176702+WilliamSampaio@users.noreply.github.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^8.0",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    },
     "scripts": {
         "test": "phpunit",
         "coverage": "phpunit --coverage-html=coverage",
